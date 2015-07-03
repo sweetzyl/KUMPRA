@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="250dp"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+              android:layout_marginTop="16dp"
+    >
+
+    <EditText
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/item"
+        android:drawablePadding="8dp"
+        android:text="Items" />
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:hint="@string/quantity"
+
+
+        android:drawablePadding="8dp"
+        android:text="Quantity" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:drawableRight="@drawable/ic_action_accept"
+        />
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        />
+
+    <ListView
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:background="@drawable/card_background"
+
+
+        />
+
+</LinearLayout>
